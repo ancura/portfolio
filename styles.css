@@ -1,4 +1,5 @@
 body {
+	display: flex;
 	width: 100%;
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
@@ -11,6 +12,7 @@ body {
 	align-items: center;
 	min-height: 100%;
 	width: 50%;
+	max-width: 500px;
 	overflow: hidden;
 	position: relative;
 }
@@ -49,4 +51,44 @@ body {
 	z-index: -1;
 	background-color: black;
 	opacity: .5;
+}
+
+.social-links {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.social-links .fa {
+	font-size: 1.2em;
+	margin: 0 2px;
+	color: white;
+}
+
+.right-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100%;
+	width: 100%;
+
+}
+
+.slide {
+	margin: 12px;
+	width: 90%;
+	height: 30%;
+	background-color: #d3d3d3;
+}
+
+.slide-one {
+	background-image: url("Images/honoring-life.png");
+	background-size: cover;
+}
+
+.slide:first-child {
+	margin-top:24px;
+}
+
+.slide:last-child {
+	margin-bottom:24px;
 }

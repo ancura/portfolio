@@ -3,9 +3,15 @@ html {
 }
 
 body {
+	overflow-x: hidden;
 	width: 100%;
 	height: 100%;
 	font-family: 'Roboto', sans-serif;
+	background-color: #141D24;
+}
+
+body.about-me--active .sections-wrapper {
+	transform: translateX(0);
 }
 
 a {
@@ -17,6 +23,7 @@ a {
 /***************************/
 
 #navbar {
+	z-index: 2;
 	display: flex;
 	justify-content: flex-start;
 	position: absolute;
@@ -37,7 +44,7 @@ a {
  
 #navbar ul li a { 
 	text-decoration: none; 
-	padding: .2em 1em; 
+	padding: .2em 1rem; 
 	color: #fff; 
 	background-color: #141D24;
 }
@@ -59,6 +66,28 @@ a {
 /************MAIN***********/
 /***************************/
 
+.sections-wrapper {
+	transition: transform 2s ease;
+	transform: translateX(-50%);
+	flex-direction: row;
+	display: flex;
+	width: 200%;
+	height: 100%;
+}
+
+.home-container {
+	order: 2;
+}
+
+.about-me-container {
+	order: 1;
+}
+
+h1 span {
+	display: block;
+	text-align: center;
+}
+
 .main-container {
 	display: flex;
 	flex-direction: column;
@@ -69,38 +98,38 @@ a {
 	background-color: #141D24;
 }
 
-.hi {
+.heading-medium {
 	font-family: 'Berkshire Swash', cursive;
 	font-weight: 100;
 	color: #fff;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 2.5rem;
 	margin: 0;
 }
 
-#name {
+.heading-large {
 	font-family: 'Berkshire Swash', cursive;
 	font-weight: 100;
 	color: #fff;
-	font-size: 4.5em;
+	font-size: 4.5rem;
 	margin: 0 0 10px 0;
 }
 
-#title {
+.sub-heading {
 	margin: 10px 0 10px 0;
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	font-family: 'Syncopate', sans-serif;
 	color: #fff;
 }
 
 .social-links {
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 1rem;
 }
 
 .social-links .fa {
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	margin: 0 2px;
 	color: white;
 }

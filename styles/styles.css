@@ -1,0 +1,151 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/***************************/
+/************NAV************/
+/***************************/
+
+#navbar {
+	display: flex;
+	justify-content: flex-start;
+	position: absolute;
+	width: 100%;
+}
+
+#navbar ul { 
+	margin: 10px; 
+	padding: 20px; 
+	list-style-type: none; 
+	text-align: center; 
+} 
+ 
+#navbar ul li {  
+	display: inline; 
+	font-family: 'Syncopate', sans-serif;
+} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #141D24;
+}
+ 
+#navbar ul li a:hover { 
+	color: #000;
+}
+
+/****************************/
+/************BODY************/
+/****************************/
+
+
+/****************************/
+
+
+/***************************/
+/**********SECTION**********/
+/************MAIN***********/
+/***************************/
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: #141D24;
+}
+
+.hi {
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: 100;
+	color: #fff;
+	text-align: center;
+	font-size: 2.5em;
+	margin: 0;
+}
+
+#name {
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: 100;
+	color: #fff;
+	font-size: 4.5em;
+	margin: 0 0 10px 0;
+}
+
+#title {
+	margin: 10px 0 10px 0;
+	font-size: 1.2em;
+	font-family: 'Syncopate', sans-serif;
+	color: #fff;
+}
+
+.social-links {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.social-links .fa {
+	text-decoration: none;
+	font-size: 1.5em;
+	margin: 0 2px;
+	color: white;
+}
+
+.arrow-button {
+	width: 50px;
+	height: 50px;
+	margin-top: 80px;
+	transform: rotate(45deg);
+	border-right: 3px solid #fff;
+	border-top: 3px solid #fff;
+}
+/***************************/
+/**********SECTION**********/
+/**********EXAMPLE**********/
+/***************************/
+
+.portfolio-examples {
+	display: flex;
+	justify-content: center;
+	background-color: #141D24;
+	width: 100%;
+}
+
+.work-preview {
+	margin: 100px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90%;
+}
+
+.work-preview div {
+	width: 300px;
+	height: 300px;
+}
+
+.work-1{background-image: url("../images/hedge.jpg"); background-repeat: no-repeat; background-position: center;}
+.work-2{background-image: url("../images/royalty.jpg"); background-position: 80% 20%; background-repeat: no-repeat;} 
+.work-3{background-image: url("../images/hedge.jpg"); background-repeat: no-repeat; background-position: center;} 
+.work-4{background-image: url("../images/royalty.jpg"); background-position: 80% 20%; background-repeat: no-repeat;} 
+.work-5{background-image: url("../images/hedge.jpg"); background-repeat: no-repeat; background-position: center;} 
+.work-6{background-image: url("../images/royalty.jpg"); background-position: 80% 20%; background-repeat: no-repeat;}
+
+
+
+
+
+
+
+
+

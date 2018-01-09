@@ -26,7 +26,6 @@ a {
 	z-index: 2;
 	display: flex;
 	justify-content: flex-start;
-	position: absolute;
 	width: 100%;
 }
 
@@ -58,7 +57,8 @@ a {
 /****************************/
 
 
-/****************************/
+/**********HOME-PAGE*********/
+/************START***********/
 
 
 /***************************/
@@ -81,6 +81,18 @@ a {
 
 .about-me-container {
 	order: 1;
+}
+
+.about-me {
+	width: 40%;
+	text-align: center;
+	color: #fff;
+}
+
+.paragraph-text {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	line-height: 1.5rem;
 }
 
 h1 span {
@@ -142,39 +154,102 @@ h1 span {
 	border-right: 3px solid #fff;
 	border-top: 3px solid #fff;
 }
+/**********HOME-PAGE*********/
+/************END*************/
+
+
 /***************************/
-/**********SECTION**********/
-/**********EXAMPLE**********/
+/**********PORTFOLIO********/
+/**********START************/
 /***************************/
 
-.portfolio-examples {
+.projects {
+	margin: 0 auto;
+	padding: 100px 0;
+	width: 80%;
 	display: flex;
-	justify-content: center;
-	background-color: #141D24;
-	width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.work-preview {
-	margin: 100px 0;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	width: 90%;
+.projects .work h2 {
+	font-family: 'Syncopate', sans-serif;
+	font-size: 1.2rem;
+	color: #fff;
+	padding-top: 10px;
 }
 
-.work-preview div {
+.projects .work h2 a {
+	color: #fff;
+}
+
+.projects .work p {
+	font-family: 'Roboto', sans-serif;
+	padding-right: 20px;
+	margin: 0;
+	color: #fff;
+}
+
+.work {
+	background: rgba(0, 0, 0, 0.2);
+	text-align: center;
+	flex-direction: row;
+	padding: 10px;
+	width: 30%;
+	max-width: 300px;
+	min-width: 300px;
+}
+
+.work-img-container {
 	width: 300px;
-	height: 300px;
+	height: 200px;
 }
 
-.work-1{background-image: url("../images/hedge.jpg"); background-repeat: no-repeat; background-position: center;}
-.work-2{background-image: url("../images/royalty.jpg"); background-position: 80% 20%; background-repeat: no-repeat;} 
-.work-3{background-image: url("../images/hedge.jpg"); background-repeat: no-repeat; background-position: center;} 
-.work-4{background-image: url("../images/royalty.jpg"); background-position: 80% 20%; background-repeat: no-repeat;} 
-.work-5{background-image: url("../images/hedge.jpg"); background-repeat: no-repeat; background-position: center;} 
-.work-6{background-image: url("../images/royalty.jpg"); background-position: 80% 20%; background-repeat: no-repeat;}
+.work-img-container img {
+	width: 100%;
+	height: -webkit-fill-available;
+}
 
 
+
+/***************************/
+/**********PORTFOLIO********/
+/**********END**************/
+
+
+
+/*************MEDIA QUERY**************/
+
+@media (min-width: 300px) and (max-width: 400px) {
+	.work {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
+	.work {
+		width: 80%;
+		max-width: 300px;
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+	.work {
+		width: 100%;
+		max-width: 300px;
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+	.work {
+		width: 100%;
+		max-width: 300px;
+		margin-bottom: 50px;
+	}
+}
 
 
 

@@ -66,14 +66,7 @@ a {
 /************MAIN***********/
 /***************************/
 
-.sections-wrapper {
-	transition: transform 2s ease;
-	transform: translateX(-50%);
-	flex-direction: row;
-	display: flex;
-	width: 200%;
-	height: 100%;
-}
+
 
 .home-container {
 	order: 2;
@@ -101,6 +94,7 @@ h1 span {
 }
 
 .main-container {
+	min-height: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -108,6 +102,20 @@ h1 span {
 	width: 100%;
 	height: 100%;
 	background-color: #141D24;
+}
+
+#download_r {
+	font-family: 'Berkshire Swash', cursive;
+	color: #fff;
+}
+
+.font-2 {
+	font-family: 'Syncopate', sans-serif;
+}
+
+.c-h {
+	font-size: 15px;
+	color: #551A8B;
 }
 
 .heading-medium {
@@ -144,15 +152,6 @@ h1 span {
 	font-size: 1.5rem;
 	margin: 0 2px;
 	color: white;
-}
-
-.arrow-button {
-	width: 50px;
-	height: 50px;
-	margin-top: 80px;
-	transform: rotate(45deg);
-	border-right: 3px solid #fff;
-	border-top: 3px solid #fff;
 }
 /**********HOME-PAGE*********/
 /************END*************/

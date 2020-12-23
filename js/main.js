@@ -1,3 +1,4 @@
+/*
 (function() {
 var arrowEl	= document.querySelector('#arrow');
 arrowEl.addEventListener('click', function() {
@@ -5,3 +6,4 @@ arrowEl.addEventListener('click', function() {
 });
 //debugger;
 })();
+*/

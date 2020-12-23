@@ -201,7 +201,6 @@ h1 span {
 	width: 8.5in;
 	height: 11in;
 	background-color: white;
-	margin: 0 auto;
 }
 
 .margin-top-20 {
@@ -306,10 +305,15 @@ h1 span {
 }
 
 .download_button {
+	color: #0099ff;
 	padding: 40px 0;
 	display: flex;
 	justify-content: center;
 	width: 100%;
+}
+
+.pad-60 {
+	padding: 60px;
 }
 /*
 font-family: 'Roboto', sans-serif;

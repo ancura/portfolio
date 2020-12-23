@@ -10,9 +10,6 @@ body {
 	background-color: #141D24;
 }
 
-body.about-me--active .sections-wrapper {
-	transform: translateX(0);
-}
 
 a {
 	text-decoration: none;

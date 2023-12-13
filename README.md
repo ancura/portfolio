@@ -1,4 +1,4 @@
 # portfolio
 Personal portfolio
 
-https:/ancura.github.io/portfolio/
+https://ancura.github.io/portfolio/
